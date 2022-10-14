@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS promotion2;
+CREATE DATABASE promotion2;
+USE promotion2;
+
+CREATE TABLE promotion
+(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    NomPromotion VARCHAR(150)
+)

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: solid 2px #0099FF;
+    padding: 20px;
+    width: 50%;
+    min-height: 350px;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+.edit_container{
+    border: solid 1px #0099FF;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+#save{
+    margin-left: 80px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    background-color: #0099FF;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1278bc;
+}
+.input{
+    height: 36px;
+    border-style: none;
+    border: solid 1px #0099FF;
+    margin-left: 10px;
+}
+.prommo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: solid 1px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+#icon_delete{
+    color: red;
+    margin-right: 5px;
+}
+#icon_edit{
+    color: #0099FF;
+}
+#search{
+    display: none;
+
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+}
+.hidden{
+    display: inline-block !important;
+}
+
